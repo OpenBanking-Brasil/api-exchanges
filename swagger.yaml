@@ -15,7 +15,7 @@ info:
     __Eventos de vinculação de operações não são escopo de exposição.__
 
     __A exposição se dará por cada operação de câmbio contratada pelo cliente.__
-  version: 1.1.0-beta.1
+  version: 1.1.0
   license:
     name: Apache 2.0
     url: 'https://www.apache.org/licenses/LICENSE-2.0'
@@ -716,7 +716,7 @@ components:
               type: string
               description: |
                 Nome do pagador ou recebedor no exterior.
-              maxLength: 80
+              maxLength: 120
               pattern: '[\w\W\s]*'
               example: José da Silva
             foreignPartieCountryCode:
